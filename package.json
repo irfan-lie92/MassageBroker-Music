@@ -1,0 +1,22 @@
+{
+  "name": "broker-openmusic-consumer",
+  "version": "1.0.0",
+  "description": "OpenMusic Broker Consumer",
+  "main": "src/consumer.js",
+  "author": "Irfan Ali",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/consumer.js",
+    "start-dev": "nodemon -w src/ ./src/consumer.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.2",
+    "nodemailer": "^6.9.6",
+    "pg": "^8.8.0"
+  }
+}
